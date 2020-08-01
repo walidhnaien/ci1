@@ -88,7 +88,7 @@ error "*** File: ${artifactPath}, could not be found";
     }
          post {
         always {
-            emailext body: 'Hello!', subject: 'sending email', to: 'ghannemmarwen@gmail.com'           
+            emailext body: 'Hello!', subject: 'sending email', to: 'hnaien@gmail.com'           
                 }
               }
 }

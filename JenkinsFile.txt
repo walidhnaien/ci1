@@ -18,7 +18,7 @@ NEXUS_CREDENTIAL_ID = "nexus-credential"
         stage('clone code') {
             steps {
                 script{
-                    git credentialsId: 'ed19d322-5b2d-482a-b36a-221d5511c1bf', url: 'https://github.com/walidhnaien/CI.git'
+                    git credentialsId: 'ed19d322-5b2d-482a-b36a-221d5511c1bf', url: 'https://github.com/walidhnaien/Ci1.git'
                     echo 'clone done'
                     }
             }
